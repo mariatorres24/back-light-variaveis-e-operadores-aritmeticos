@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
-
 ## Exercícios de classe 🏫
 
-### 7. Fahrenheit x Celsius
+### Fahrenheit x Celsius
 
 Para convertermos graus em Fahrenheit para graus em Celsius utilizamos a seguinte fórmula:
 

@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
+## Exercícios extra 🌟
 
-## Exercícios de casa 🏠
-
-### 14. Soma dos ângulos internos de um polígono
+### Soma dos ângulos internos de um polígono
 
 Faça um programa que, a partir do número de lados de um polígono, imprima na tela a soma dos seus ângulos internos, conforme a fórmula abaixo:
 
@@ -24,4 +22,4 @@ Preencha a checklist para finalizar o exercício:
 - [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 - [ ] Realizar o pull request
 
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`
+###### tags: `lógica` `módulo 1` `exercício extra` `matemática` `nodeJS`

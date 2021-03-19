@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
-
 ## Exercícios de classe 🏫
 
-### 9. Calcular juros compostos
+### Calcular juros compostos
 
 Para calcular os juros compostos, utiliza-se a expressão:
 

@@ -1,7 +1,4 @@
 ![](https://i.imgur.com/xG74tOh.png)
-
-# Back-end 
-
 ## Variáveis e operadores aritméticos
 
 ## Exercícios de classe 🏫

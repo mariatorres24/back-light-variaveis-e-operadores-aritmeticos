@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end
+## Exercícios extra 🌟
 
-## Exercícios de casa 🏠
-
-### 15. Delta
+### Delta
 
 Na Famigerada fórmula de báskhara, que serve para calcular as raízes de uma equação de segundo grau, o primeiro passo é calcular o valor de delta, a partir dos coeficientes A, B e C, conforme a fórmula abaixo.
 
@@ -22,4 +20,4 @@ Preencha a checklist para finalizar o exercício:
 - [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 - [ ] Realizar o pull request
 
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`
+###### tags: `lógica` `módulo 1` `exercício extra` `matemática` `nodeJS`

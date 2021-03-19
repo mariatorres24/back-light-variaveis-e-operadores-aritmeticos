@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
-
 ## Exercícios de classe 🏫
 
-### 8. Desconto do tênis
+### Desconto do tênis
 
 Você deseja comprar um tênis novo, porém, está com o dinheiro do mês contado e te sobrará somente R$ 80,00 para comprá-lo.
 

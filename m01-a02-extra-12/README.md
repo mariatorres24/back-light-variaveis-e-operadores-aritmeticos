@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
+## Exercícios extra 🌟
 
-## Exercícios de casa 🏠
-
-### 12. Casos de COVID
+### Casos de COVID
 
 Suponha que você está trabalhando no Ministério da Saúde e está trabalhando num simulador de casos de COVID-19. Seu trabalho é fazer um programa que calcula qual será o total de pessoas infectadas a partir de 3 variáveis.
 
@@ -37,4 +35,4 @@ Preencha a checklist para finalizar o exercício:
 - [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 - [ ] Realizar o pull request
 
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`
+###### tags: `lógica` `módulo 1` `exercício extra` `matemática` `nodeJS`

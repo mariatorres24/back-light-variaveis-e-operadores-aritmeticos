@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
+## Exercícios extra 🌟
 
-## Exercícios de casa 🏠
-
-### 13. Calculo do perímetro e área de um círculo
+### Calculo do perímetro e área de um círculo
 
 Faça um programa que, a partir do raio de um círculo, calcula o comprimento (C) e a área (Ao) deste círculo.
 
@@ -23,4 +21,4 @@ Preencha a checklist para finalizar o exercício:
 - [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 - [ ] Realizar o pull request
 
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`
+###### tags: `lógica` `módulo 1` `exercício extra` `matemática` `nodeJS`

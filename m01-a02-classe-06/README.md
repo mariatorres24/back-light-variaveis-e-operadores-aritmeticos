@@ -1,10 +1,8 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Módulo 01 - Aula 02
-
 ## Exercícios de classe 🏫
 
-### 6. Calculadora de IMC
+### Calculadora de IMC
 
 Para calcularmos o IMC de alguém, podemos utilizar a seguinte fórmula:
 

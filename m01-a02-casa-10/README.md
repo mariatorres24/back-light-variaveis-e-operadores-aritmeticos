@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-## Exercícios de classe 🏫
+## Exercícios de casa 🏠 
 
 ### Calcular a distância entre dois pontos
 

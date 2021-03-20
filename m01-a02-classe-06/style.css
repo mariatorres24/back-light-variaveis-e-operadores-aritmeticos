@@ -1,0 +1,67 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(209, 209, 209);
+}
+
+.content {
+    margin: 200px auto;
+    width: 25%;
+    height: 500px;
+    text-align: center;
+    background:linear-gradient(-65deg, rgb(8, 133, 56), rgb(9, 172, 104) );
+    border-radius: 6%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.title {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px rgb(5, 71, 31),
+               5px 5px rgb(5, 71, 31),
+               4px 4px rgb(5, 71, 31),
+               3px 3px rgb(5, 71, 31),
+               2px 2px rgb(5, 71, 31),
+               2px 2px rgb(5, 71, 31),
+               1px 1px rgb(5, 71, 31);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px 0;
+}
+
+
+button {
+    
+    font-size: 17px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 1px solid #eee;
+    margin: 20px auto;
+}
+
+#output {
+    padding: 6%;
+    font-size: 20px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 10px;
+}

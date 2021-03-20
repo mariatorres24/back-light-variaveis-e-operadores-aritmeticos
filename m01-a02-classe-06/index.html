@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./index.js"></script>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>Calcule seu IMC</h1>
+    <div class="content">
+      <div class="title">
+        <h1>Calcule seu IMC</h1>
+      </div>
+      <div class="inputs">
+        <input type="text" id="nome" placeholder="Escreva seu nome aqui" />
+        <input type="text" id="peso" placeholder="Escreva seu peso aqui" />
+        <input type="text" id="altura" placeholder="Escreva sua altura aqui" />
+      </div>
+      <button onclick="calculaImc()">CALCULAR</button>
 
-    <input type="text" id="nome" placeholder="escreva seu nome aqui" />
-    <input type="text" id="peso" placeholder="escreva seu peso aqui" />
-    <input type="text" id="altura" placeholder="escreva seu altura aqui" />
-    <button onclick="calculaImc()">Calcular</button>
-
-    <div id="output"></div>
+      <div id="output"></div>
+    </div>
   </body>
 </html>

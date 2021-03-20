@@ -21,8 +21,7 @@ Sendo:
 
 F = 73
 
-![C = (73 - 32) * \frac{5}{9} \\ C = 41 * \frac{5}{9} \\ C ≅ 23](https://i.imgur.com/ZP8YxZc.png)
-
+![C = (73 - 32) * \frac{5}{9} \ C = 41 * \frac{5}{9} \ C ≅ 23](https://i.imgur.com/ZP8YxZc.png)
 
 O seu programa deverá imprimir graus em Celsius com base no input recebido.
 
@@ -31,9 +30,9 @@ O seu programa deverá imprimir graus em Celsius com base no input recebido.
 Preencha a checklist para finalizar o exercício:
 
 - [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-- [ ] Realizar o pull request
+- [x] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+- [x] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+- [x] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
+- [x] Realizar o pull request
 
 ###### tags: `lógica` `módulo 1` `exercício de classe` `matemática` `nodeJS`

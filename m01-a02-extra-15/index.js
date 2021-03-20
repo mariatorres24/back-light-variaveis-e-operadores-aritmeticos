@@ -1,9 +1,22 @@
-// X =
-const varA = 1;
-const varB = 1;
-const varC = 1;
+const button = document.getElementById('calcule');
 
-const delta = (varB ^ 2) - 4 * VarA * VarC;
+function calc() {
+  const varA = document.getElementById('varA').value;
+  const varB = document.getElementById('varB').value;
+  const varC = document.getElementById('varC').value;
 
-if (delta < 0) {
+  let result = document.getElementById('h3');
+
+  result.innertext = '';
+  const delta = (varB ^ 2) - 4 * varA * varC;
+  console.log(delta);
+  if (delta < 0) {
+    let resp = 'Delta negativa, não dá';
+    result.innerHTML = resp;
+  } else {
+    let raizP = ((-varB + Math.sqrt(delta)) / (2 * varA)).toFixed(2);
+    let raizN = ((-varB - Math.sqrt(delta)) / (2 * varA)).toFixed(2);
+    let resp = `As raízes são ${raizP} e ${raizN}`;
+    result.innerHTML = resp;
+  }
 }

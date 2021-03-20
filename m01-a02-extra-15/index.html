@@ -4,12 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Baskhara I S2 you</title>
   </head>
   <body>
     <h1>
-      Olá se você está aqui nesse site capenga é por que você ama a fórmula de
-      Baskhara
+      Olá se você está aqui nesse site capenga é por que você ama
+      <span
+        class="txt-rotate"
+        data-period="2000"
+        data-rotate='[ "inventar arte.", "a Cubos Academy.", "editar código feito.", "o curso PdZ.", "Baskhara!" ]'
+      ></span>
     </h1>
+    <div class="vars">
+      <h2>Digite as três variáveis</h2>
+
+      <input type="number" name="varA" id="varA" />
+      <input type="number" name="varB" id="varB" />
+      <input type="number" name="varC" id="varC" />
+      <button type="submit" id="calcule" onclick="calc()"></button>
+      <h3 id="h3">Seu resultado aparecerá aqui!</h3>
+    </div>
+    <script src="firula.js" async></script>
+    <script src="index.js"></script>
   </body>
 </html>

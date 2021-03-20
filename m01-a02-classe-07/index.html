@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M01-A02-CLASSE-06</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img src="https://cubos.academy/assets/images/logo-main-clear.png" alt="Cubos Academy">
+        <div class="imc-calc">
+          <h1>Fahrenheit x Celsius</h1>
+          <form>
+            <div class="degree">
+              <label for="degreesF">Quantos graus está fazendo? <span>(em Fahrenheit)</span></label>
+              <input type="text" name="degreesF" id="degreesF" placeholder="Graus">
+            </div>
+
+            <input type="button" value="Converter Agora" id="btn-calc">
+          </form>
+          <div id="res">
+            <h2>Resultado</h2>
+            <div class="res"></div>
+          </div>
+          <div id="reset" class="deactive">
+            <input type="button" value="Resetar" id="btn-reset">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

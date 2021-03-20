@@ -1,0 +1,118 @@
+root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #353547;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 55vw;
+  height: 75vh;
+  max-width: 550px;
+  max-height: 850px;
+}
+
+.content img {
+  margin: 0 auto 2em 0
+}
+
+.imc-calc {
+  border: .1em solid #e5e5e5;
+  background: white;
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.imc-calc h1 {
+  color: #353547;
+}
+
+.imc-calc form {
+  margin: 1em 0;
+}
+
+.imc-calc form label,
+.imc-calc form input {
+  display: block;
+}
+
+.imc-calc form label {
+  margin: .5em 0;
+  color: #353547;
+}
+
+.imc-calc form label span {
+  font-size: .7em;
+}
+
+.imc-calc form input {
+  padding: .5em;
+  width: 100%;
+  border: .1em solid #e5e5e5;
+  font-size: 1.8em;
+  color: #353547;
+}
+
+.imc-calc #btn-calc {
+  margin-top: 1em;
+  background: #d4248a;
+  color: white;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.imc-calc #btn-calc:hover {
+  background: #b07;
+}
+
+.imc-calc #res {
+  color: #666;
+  text-align: center;
+}
+
+.imc-calc #res h2 {
+  color:#353547;
+}
+
+.imc-calc #reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.imc-calc #reset input {
+  width: 30%;
+  height: 3.8em;
+  border: none;
+  font-weight: 700;
+  color: #353547;
+  cursor: pointer;
+}
+
+.imc-calc #reset input:hover {
+  background: #cecdcd;
+}
+
+.deactive {
+  visibility: hidden;
+}
+
+

@@ -10,15 +10,14 @@ Faça um programa que, a partir do raio de um círculo, calcula o comprimento (C
 
 OBS: Nós sabemos que não falamos sobre o número PI nas aulas. O objetivo aqui é que vocês aprendam a pesquisar esse ponto específico também. Boa sorte, qualquer coisa é só pedir socorro pra gente! =)
 
-
 ---
 
 Preencha a checklist para finalizar o exercício:
 
 - [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-- [ ] Realizar o pull request
+- [x] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+- [x] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+- [x] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
+- [x] Realizar o pull request
 
 ###### tags: `lógica` `módulo 1` `exercício extra` `matemática` `nodeJS`

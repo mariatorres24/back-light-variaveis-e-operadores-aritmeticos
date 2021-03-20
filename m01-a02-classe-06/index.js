@@ -4,8 +4,8 @@
 
 function calcImc(peso, altura){
 
-    return peso / (Math.pow(altura, 2))
+    return peso / (Math.pow(altura, 2));
 
 }
 
-console.log(calcImc(76, 1.79))
+console.log(calcImc(76, 1.79));

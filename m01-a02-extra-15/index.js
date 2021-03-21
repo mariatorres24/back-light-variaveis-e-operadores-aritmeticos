@@ -8,7 +8,7 @@ function calc() {
   let result = document.getElementById('h3');
 
   result.innertext = '';
-  const delta = (varB ^ 2) - 4 * varA * varC;
+  const delta = (varB ** 2) - 4 * varA * varC;
   console.log(delta);
   if (delta < 0) {
     let resp = 'Delta negativa, não dá';

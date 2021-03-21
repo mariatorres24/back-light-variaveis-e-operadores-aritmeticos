@@ -5,8 +5,8 @@ function verificar() {
     let taltura = window.document.getElementById('altura');
     let nome = tnome.value;
     let idade = Number(tidade.value);
-    let peso = Number(tpeso.value).toFixed(1);
-    let altura = Number(taltura.value).toFixed(2);
+    let peso = Number(tpeso.value);
+    let altura = Number(taltura.value);
     /* Informando o IMC com precisão de uma casa decimal  */
     let imc = ((peso / (altura * altura)).toFixed(1));
     // Criando o elemento img no JS:
@@ -28,13 +28,13 @@ function verificar() {
             res.innerHTML += `Você tem ${idade} anos.<br><br>`;
         }
     }
-    if (peso == ''){
-        window.alert('Digite seu peso.')
+    if (peso == '') {
+        window.alert('Digite seu peso.');
     } else {
         res.innerHTML += `Você pesa ${peso} kg.<br><br>`
     }
     if (altura == '') {
-        window.alert('Digite sua altura.')
+        window.alert('Digite sua altura.');
     } else {
         res.innerHTML += `Você mede ${altura}m.<br><br>`
     }
@@ -53,8 +53,8 @@ function verificar() {
             res.innerHTML += 'Você está com <strong>obesidade grave</strong>.<br><br>'
         }
         res.innerHTML += 'Veja a interpretação do IMC:<br><br>'
-        img.setAttribute('src', 'tabela-imc.jpg')
-        res.appendChild(img)
+        img.setAttribute('src', 'tabela-imc.jpg');
+        res.appendChild(img);
     }
     tnome.value = ''
     tidade.value = ''

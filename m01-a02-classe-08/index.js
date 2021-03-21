@@ -1,5 +1,5 @@
-let productPrice = 800;
-let customerMoney = 664;
+let productPrice = 129.99;
+let customerMoney = 80;
 let discount = 0.0;
 
 

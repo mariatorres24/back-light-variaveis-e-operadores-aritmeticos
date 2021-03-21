@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(40, 172, 158, 0.644);
+    margin: 0px;
+    padding: 0px;
+}
+#caixa {
+    width: 700px;
+    height: 400px;
+    border: normal solid 2px;
+    box-shadow: 3px 3px black;
+    border-radius: 2%;
+    margin: auto;
+    margin: 24px auto 24px auto;
+    background-color: white;
+    padding: 0px;
+}
+#cabecalho {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-shadow: .05em .05em .2em rgb(58, 2, 2);
+    text-align: center;
+}
+
+#valorEmMaos {
+    margin-left: 10px;
+}
+#valorTenis {
+    margin-left: 70px;
+}
+
+section {
+    height: 250px;
+}
+p {
+    display: inline-block;
+    margin-left: 10px;
+}
+input {
+    margin-left: 5px;
+    width: 200px;
+    box-shadow: .2em .2em .2em rgb(58, 2, 2);
+}
+#res {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+#verificar {
+    width: auto;
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+footer {
+    /* background-color: red; */
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+#rodape {
+    text-shadow: 0.05em 0.05em 0.1em black;
+}

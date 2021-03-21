@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div id="caixa">
+        <header>
+            <h1 id=cabecalho>Cálculo do IMC</h1>
+        </header>
+        <section>
+            <p>Digite seu nome:</p><input type="text" name="nome" id="nome" placeholder="ex.: José"><br>
+            <p>Digite sua idade:</p><input type="number" name="idade" id="idade" min='0' placeholder="ex.: 25"><br>
+            <p>Digite seu peso (em kg):</p><input type="number" name="peso" id="peso" min='0' placeholder="ex.: 71.2"><br>
+            <p>Digite sua altura (em metros):</p><input type="number" name="altura" id="altura" min='0' placeholder="ex.: 1.82"><br>
+            <input id='verificar' type="submit" value="Verificar" onclick = verificar()>
+            <div id='res'>O resultado será apresentado aqui:
+                
+            </div>
+            <img src="" alt="">
+        </section>
+        <footer>
+            <p id='rodape'>&copy; Programação do Zero - 2021</p>
+        </footer>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desconto do tênis</title>
+</head>
+<body>
+    <div id="caixa">
+        <header>
+            <h1 id=cabecalho>Desconto do tênis</h1>
+        </header>
+        <section>
+            <p>Digite o valor que você possui:</p><input type="number" name="valorEmMaos" id="valorEmMaos" min="0" placeholder="ex.: 80.00"><br>
+            <p>Digite o valor do tênis:</p><input type="number" name="valorTenis" id="valorTenis" min="0" placeholder="ex.: 129.99"><br>
+            <input id='verificar' type="submit" value="Verificar" onclick = verificar()>
+            <div id='res'>O resultado será apresentado aqui:
+                
+            </div>
+        </section>
+        <footer>
+            <p id='rodape'>&copy; Programação do Zero - 2021</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

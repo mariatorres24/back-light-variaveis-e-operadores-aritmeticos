@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M01-A02-CASA-09</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img
+          src="https://cubos.academy/assets/images/logo-main-clear.png"
+          alt="Cubos Academy"
+        />
+        <div class="calc">
+          <h1>Calculadora Juros Compostos</h1>
+          <form>
+            <div class="capital">
+              <label for="capital">Capital Investido:</label>
+              <div>
+                <span>R$</span>
+                <input
+                  type="text"
+                  name="capitpal"
+                  id="capitpal"
+                  placeholder="0,00"
+                />
+              </div>
+            </div>
+            <div class="details">
+              <div class="tax">
+                <label for="tax">Taxa Fixa: <span>(% Mensal)</span></label>
+                <div>
+                  <input type="text" name="tax" id="tax" placeholder="0,00" />
+                  <span>%</span>
+                </div>
+              </div>
+              <div class="duration">
+                <label for="duration">Tempo: <span>(Em Meses)</span></label>
+                <div>
+                  <span><i class="far fa-calendar-alt"></i></span>
+                  <input
+                    type="number"
+                    name="duration"
+                    id="duration"
+                    placeholder="1"
+                    min="1"
+                  />
+                </div>
+              </div>
+            </div>
+            <input type="button" value="Calcular Agora" id="btn-calc" />
+          </form>
+          <div id="res">
+            <h2>Resultado</h2>
+            <div class="res"></div>
+            <div class="status"></div>
+          </div>
+          <div id="reset" class="deactive">
+            <input type="button" value="Resetar" id="btn-reset" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #353547;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 55vw;
+  height: auto;
+  max-width: 550px;
+}
+
+.content img {
+  margin: 0 auto 2em 0
+}
+
+.calc {
+  border: .1em solid #e5e5e5;
+  background: white;
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.calc h1 {
+  color: #353547;
+}
+
+.calc form {
+  margin: 1em 0;
+}
+
+.calc form label,
+.calc form input {
+  display: block;
+}
+
+.calc form label {
+  margin: .5em 0;
+  color: #353547;
+}
+
+.calc form label span {
+  font-size: .7em;
+}
+
+.calc form input {
+  padding: .5em;
+  width: 100%;
+  border: .1em solid #e5e5e5;
+  font-size: 1.8em;
+  color: #353547;
+}
+
+.calc form input:focus {
+  outline: none;
+}
+
+.calc form .capital > div {
+  display: flex;
+}
+
+.calc form .capital > div span {
+  background: #d4248a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  width: 20%;
+}
+
+.calc form .capital > div input {
+  border-left: none;
+}
+
+.calc form .details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  width: 105%;
+}
+
+.calc form .details input {
+  width: 70%;
+}
+
+.calc form .details .tax > div {
+  display: flex;
+}
+
+.calc form .details .tax > div span {
+  background: #d4248a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  width: 20%;
+}
+
+.calc form .details .tax input {
+  border-right: none;
+}
+
+.calc #btn-calc {
+  margin-top: 1em;
+  background: #d4248a;
+  color: white;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.calc form .details .duration > div {
+  display: flex;
+}
+
+.calc form .details .duration > div span {
+  background: #d4248a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  width: 20%;
+}
+
+.calc form .details .duration input {
+  border-left: none;
+}
+
+.calc #btn-calc:hover {
+  background: #b07;
+}
+
+.calc #res {
+  color: #666;
+  text-align: center;
+}
+
+.calc #res h2 {
+  color:#353547;
+}
+
+.calc #reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.calc #reset input {
+  width: 30%;
+  height: 3.8em;
+  border: none;
+  font-weight: 700;
+  color: #353547;
+  cursor: pointer;
+}
+
+.calc #reset input:hover {
+  background: #cecdcd;
+}
+
+.deactive {
+  visibility: hidden;
+}
+
+

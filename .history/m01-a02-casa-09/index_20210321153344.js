@@ -4,4 +4,4 @@
  let montante = capital * Math.pow((1 + taxaJuros), tempoAplicacao);
  let valorMensal = montante / tempoAplicacao;
  console.log(`O valaor do montante é ${montante.toFixed(3)}`);
- console.log(`O valaor mensal é ${valorMensal.toFixed(3)}`); 
+ console.log(valorMensal.toFixed(3));

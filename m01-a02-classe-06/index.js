@@ -1,3 +1,5 @@
+// Cálculo do IMC para  o peso = 76kg e altura = 1.79m.
+
 function imc(peso, altura) {
     imc = peso / Math.pow(altura, 2)
 };

@@ -1,6 +1,18 @@
-let distPerc = 10;
-let tempo = 10;
+// Cálculo da velocidade média:
 
-let velMedia = ((distPerc / tempo) * 3.6).toFixed(1);
+// let distPerc = 10, tempo = 10;
 
-console.log(`A sua velocidade média foi de ${velMedia} km/h`);
+// let velMedia = ((distPerc / tempo) * 3.6).toFixed(1);
+
+// console.log(`Para uma distância percorrida de ${distPerc} metro(s) num tempo de ${tempo} segundo(s) sua velocidade média foi de ${velMedia} km/h.`);
+
+// Utilizando o function:
+
+let distPerc = 10, tempo = 10;
+
+function velMedia() {
+    velMedia = ((distPerc / tempo) * 3.6).toFixed(1);
+};
+velMedia();
+
+console.log(`Para uma distância percorrida de ${distPerc} metro(s) num tempo de ${tempo} segundo(s) sua velocidade média foi de ${velMedia} km/h.`);

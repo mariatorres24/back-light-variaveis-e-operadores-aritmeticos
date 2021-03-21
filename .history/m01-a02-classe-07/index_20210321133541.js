@@ -2,5 +2,5 @@
 
 let temperaturaFahrenheit = 60; 
 let temperaturaCelsius; 
-temperaturaCelsius = (temperaturaFahrenheit - 32) / 1.8;
+temperaturaCelsius = (temperaturaFahrenheit - 30) / 2;
 console.log(temperaturaCelsius);

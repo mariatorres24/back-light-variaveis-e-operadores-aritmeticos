@@ -1,4 +1,4 @@
-let dinheiro = 80, tenis = 129.99, diferenca = 49.99, cupom = 0;
+let dinheiro = 27, tenis = 123, diferenca = 50, cupom = 0;
 
 cupom = (tenis * diferenca) / dinheiro;
 

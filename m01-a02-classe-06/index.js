@@ -8,4 +8,4 @@ let height = 1.75; //[m]
 let bmi = mass / Math.pow(height , 2);
 
 //Print BMI number
-console.log(`O IMC para uma pessoa de massa ${mass} kg e ${height} m de altura é igual a ${bmi}.`);
+console.log(`O IMC calculado para uma pessoa de massa ${mass} kg e ${height} m de altura é igual a ${bmi}.`);

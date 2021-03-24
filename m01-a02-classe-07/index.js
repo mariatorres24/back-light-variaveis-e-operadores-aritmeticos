@@ -8,4 +8,3 @@ let tempCels = (tempFahr-32)*5/9; // [°C]
 
 //Print Result
 console.log(`A temperatura de ${tempFahr}F corresponde a tempetura de ${tempCels} °C.`);
-

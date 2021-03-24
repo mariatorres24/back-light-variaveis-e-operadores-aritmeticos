@@ -1,9 +1,11 @@
-//Dados de entrada
-let massa = 80; //[Kg]
-let altura = 1.75; //[m]
+//BMI Calculator
 
-//Calculo do IMC
-let imc = massa / Math.pow(altura , 2);
+//Input Data
+let mass = 80; //[Kg]
+let height = 1.75; //[m]
 
-//Impressão do IMC
-console.log(`O IMC para uma pessoa de massa ${massa} kg e ${altura} m de altura é igual a ${imc}.`);
+//The BMI Formula
+let bmi = mass / Math.pow(height , 2);
+
+//Print BMI number
+console.log(`O IMC para uma pessoa de massa ${mass} kg e ${height} m de altura é igual a ${bmi}.`);

@@ -18,7 +18,7 @@ O seu programa deverá imprimir na tela o resultado **d**
 
 ![d = \sqrt{(1 - 1)^2 + (4 - 1)^2} \\ d = \sqrt{(0)^2 + (3)^2} \\ d = \sqrt{9} \\ d = 3](https://i.imgur.com/vbKcS7g.png)
 
----
+-
 
 Preencha a checklist para finalizar o exercício:
 

@@ -11,8 +11,8 @@ let taxaFixaDeJuros = 12.5;
 let i = taxaFixaDeJuros/100;
 let tempo = 5;
 
-let montante = capital * Math.pow((1 + i), tempo);
+let montante = capital * (Math.pow((1 + i), tempo));
 
-let total = montante;
+let total = parseInt(montante);
 
 console.log (`O montante é: ${total}`);

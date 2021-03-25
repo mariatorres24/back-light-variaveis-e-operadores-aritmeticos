@@ -9,6 +9,6 @@ Calcule a distância entre dois pontos utilizando a seguinte fórmula, considera
 let x1 = 1, y1 = 1, x2 = 1, y2 = 4;
 let distancia;
 
-distancia = (Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2))).toFixed(2);
+distancia = (Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2))).toFixed(2); // .toFixed(x) define a quantidade de casas decimais
 
 console.log(`\nA distância entre os pontos A(${x1}, ${y1}) e B(${x2}, ${y2}) é ${distancia}m.\n`);

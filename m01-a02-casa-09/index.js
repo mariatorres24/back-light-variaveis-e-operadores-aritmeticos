@@ -17,7 +17,7 @@ let juros = 0;
 let montante = 0;
 
 juros = (Math.pow((1 + taxa/100),tempo));
-montante = (capital * juros).toFixed(2);
+montante = (capital * juros).toFixed(2); // .toFixed(x) define a quantidade de casas decimais
 
 console.log(`\nO capital de R$${capital} gerou um montante de R$${montante}
 após ${tempo} meses aplicados a uma taxa de ${taxa}% ao mês.\n`);
